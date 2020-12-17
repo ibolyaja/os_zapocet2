@@ -58,7 +58,7 @@ def eval_expr(string,d={}):
                 break
     return stack.pop()
 
-def to_inflix(t):
+def to_infix(t):
     tl=t.split(" ")
     stack=[]
     for j in range(len(tl)):
